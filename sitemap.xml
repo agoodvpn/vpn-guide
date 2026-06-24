@@ -13,13 +13,25 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://agoodvpn.github.io/vpn-guide/how-to-choose-vpn.html</loc>
+    <loc>https://agoodvpn.github.io/vpn-guide/huyue-download-guide.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://agoodvpn.github.io/vpn-guide/game-accelerator-guide.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://agoodvpn.github.io/vpn-guide/vpn-vs-accelerator.html</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://agoodvpn.github.io/vpn-guide/vpn-vs-accelerator.html</loc>
+    <loc>https://agoodvpn.github.io/vpn-guide/how-to-choose-vpn.html</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
