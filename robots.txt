@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agoodvpn.github.io/vpn-guide/sitemap.xml
