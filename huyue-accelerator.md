@@ -181,6 +181,8 @@
 ## 相关阅读
 
 - [返回VPN指南首页](index.md)
+- [虎跃加速器怎么下载？官网入口、安装步骤和使用前检查](huyue-download-guide.md)
+- [游戏加速器怎么选？外服游戏延迟、丢包和掉线问题处理指南](game-accelerator-guide.md)
 - [VPN和加速器有什么区别？游戏、办公和流媒体场景怎么选](vpn-vs-accelerator.md)
 - [如何选择VPN？速度、隐私、价格和解锁能力对比](how-to-choose-vpn.md)
 - [免费VPN安全吗？常见风险、适合场景和替代方案](free-vpn-risks.md)
