@@ -1,43 +1,48 @@
-# VPN Guide
+# VPN指南
 
-面向中文用户的VPN推荐、VPN评测、使用教程和网络隐私安全指南。
+这是一个面向中文用户的VPN内容指南，整理VPN推荐、VPN选择方法、VPN与加速器对比、免费VPN风险、流媒体解锁和网络隐私安全相关内容。
 
-## 网站首页
+网站地址：
 
 https://agoodvpn.github.io/vpn-guide/
 
-## 推荐阅读
+## 内容导航
 
-### VPN入门
+| 主题 | 文章 |
+|---|---|
+| VPN推荐 | [2026年VPN推荐：适合中文用户的稳定、安全与流媒体解锁选择](best-vpn-2026.md) |
+| VPN选择教程 | [如何选择VPN？速度、隐私、价格和解锁能力对比](how-to-choose-vpn.md) |
+| VPN对比 | [VPN和加速器有什么区别？游戏、办公和流媒体场景怎么选](vpn-vs-accelerator.md) |
+| 免费VPN风险 | [免费VPN安全吗？常见风险、适合场景和替代方案](free-vpn-risks.md) |
+| 流媒体解锁 | [Netflix VPN怎么选？流媒体解锁、速度和节点地区指南](vpn-for-netflix.md) |
 
-- [如何选择VPN？速度、隐私、价格和解锁能力对比](https://agoodvpn.github.io/vpn-guide/how-to-choose-vpn)
+## 适合阅读的人
 
-### VPN推荐
+- 第一次了解VPN的新手用户
+- 想比较VPN和加速器区别的用户
+- 关注远程办公和公共Wi-Fi安全的用户
+- 想了解免费VPN风险的用户
+- 想用VPN观看Netflix、YouTube、Disney+等流媒体内容的用户
 
-- [2026年VPN推荐：适合中文用户的稳定、安全与流媒体解锁选择](https://agoodvpn.github.io/vpn-guide/best-vpn-2026)
+## 推荐阅读顺序
 
-### VPN对比
+1. [如何选择VPN？速度、隐私、价格和解锁能力对比](how-to-choose-vpn.md)
+2. [2026年VPN推荐：适合中文用户的稳定、安全与流媒体解锁选择](best-vpn-2026.md)
+3. [VPN和加速器有什么区别？游戏、办公和流媒体场景怎么选](vpn-vs-accelerator.md)
+4. [免费VPN安全吗？常见风险、适合场景和替代方案](free-vpn-risks.md)
+5. [Netflix VPN怎么选？流媒体解锁、速度和节点地区指南](vpn-for-netflix.md)
 
-- [VPN和加速器有什么区别？游戏、办公和流媒体场景怎么选](https://agoodvpn.github.io/vpn-guide/vpn-vs-accelerator)
+## 内容原则
 
-### VPN安全
+本站内容优先关注：
 
-- [免费VPN安全吗？常见风险、适合场景和替代方案](https://agoodvpn.github.io/vpn-guide/free-vpn-risks)
-
-### 流媒体
-
-- [Netflix VPN怎么选？流媒体解锁、速度和节点地区指南](https://agoodvpn.github.io/vpn-guide/vpn-for-netflix)
-
-## 内容方向
-
-- VPN推荐
-- VPN教程
-- VPN评测
-- 流媒体解锁
-- 网络隐私
-- 公共Wi-Fi安全
-- 远程办公网络安全
+- 实际使用场景
+- 工具优缺点
+- 新手决策过程
+- 风险提示
+- 表格化对比
+- 常见问题解答
 
 ## 免责声明
 
-请遵守所在地法律法规及相关平台规则使用网络工具。
+本文内容仅用于网络安全、隐私保护和工具选择参考。不同地区对VPN和相关工具的使用规定不同，请在使用前了解当地法律法规和平台规则。
