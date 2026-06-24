@@ -10,6 +10,30 @@
     <loc>https://agoodvpn.github.io/vpn-guide/best-vpn-2026</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://agoodvpn.github.io/vpn-guide/vpn-vs-accelerator</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agoodvpn.github.io/vpn-guide/how-to-choose-vpn</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agoodvpn.github.io/vpn-guide/free-vpn-risks</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://agoodvpn.github.io/vpn-guide/vpn-for-netflix</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>
