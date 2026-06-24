@@ -21,6 +21,8 @@
 | 主题 | 文章 |
 |---|---|
 | 推荐工具 | [虎跃加速器：游戏、视频、社交和跨境办公场景介绍](huyue-accelerator.md) |
+| 下载教程 | [虎跃加速器怎么下载？官网入口、安装步骤和使用前检查](huyue-download-guide.md) |
+| 游戏加速 | [游戏加速器怎么选？外服游戏延迟、丢包和掉线问题处理指南](game-accelerator-guide.md) |
 | VPN推荐 | [2026年VPN推荐：适合中文用户的稳定、安全与流媒体解锁选择](best-vpn-2026.md) |
 | VPN选择教程 | [如何选择VPN？速度、隐私、价格和解锁能力对比](how-to-choose-vpn.md) |
 | VPN对比 | [VPN和加速器有什么区别？游戏、办公和流媒体场景怎么选](vpn-vs-accelerator.md) |
@@ -39,11 +41,13 @@
 ## 推荐阅读顺序
 
 1. [虎跃加速器：游戏、视频、社交和跨境办公场景介绍](huyue-accelerator.md)
-2. [如何选择VPN？速度、隐私、价格和解锁能力对比](how-to-choose-vpn.md)
-3. [VPN和加速器有什么区别？游戏、办公和流媒体场景怎么选](vpn-vs-accelerator.md)
-4. [2026年VPN推荐：适合中文用户的稳定、安全与流媒体解锁选择](best-vpn-2026.md)
-5. [免费VPN安全吗？常见风险、适合场景和替代方案](free-vpn-risks.md)
-6. [Netflix VPN怎么选？流媒体解锁、速度和节点地区指南](vpn-for-netflix.md)
+2. [虎跃加速器怎么下载？官网入口、安装步骤和使用前检查](huyue-download-guide.md)
+3. [游戏加速器怎么选？外服游戏延迟、丢包和掉线问题处理指南](game-accelerator-guide.md)
+4. [VPN和加速器有什么区别？游戏、办公和流媒体场景怎么选](vpn-vs-accelerator.md)
+5. [如何选择VPN？速度、隐私、价格和解锁能力对比](how-to-choose-vpn.md)
+6. [2026年VPN推荐：适合中文用户的稳定、安全与流媒体解锁选择](best-vpn-2026.md)
+7. [免费VPN安全吗？常见风险、适合场景和替代方案](free-vpn-risks.md)
+8. [Netflix VPN怎么选？流媒体解锁、速度和节点地区指南](vpn-for-netflix.md)
 
 ## 内容原则
 
