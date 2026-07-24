@@ -44,22 +44,9 @@ https://agoodvpn.github.io/vpn-guide/
 7. [虎跃加速器怎么下载？官网入口、安装步骤和使用前检查](https://agoodvpn.github.io/vpn-guide/huyue-download-guide.html)
 8. [游戏加速器怎么选？外服游戏延迟、丢包和掉线问题处理指南](https://agoodvpn.github.io/vpn-guide/game-accelerator-guide.html)
 
-## 内容原则
+## 关于本站
 
-本站内容优先关注：
-
-- 真实使用场景
-- 工具优缺点
-- 新手决策过程
-- 风险提示
-- 表格化对比
-- 常见问题解答
-- 站内相关阅读
-- 搜索引擎和 AI 搜索可理解的清晰结构
-
-## 项目说明
-
-本项目面向中文用户整理 VPN 和网络访问工具相关内容。文章重点不是堆产品宣传，而是帮助用户判断：
+本站面向中文用户整理 VPN 和网络访问工具相关内容，重点帮助读者判断：
 
 - 自己是否真的需要 VPN
 - 应该优先看速度、隐私还是流媒体解锁
