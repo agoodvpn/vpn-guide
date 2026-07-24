@@ -13,6 +13,7 @@ https://agoodvpn.github.io/vpn-guide/
 | VPN推荐 | [2026年VPN推荐：适合中文用户的稳定、安全与流媒体解锁选择](https://agoodvpn.github.io/vpn-guide/best-vpn-2026.html) |
 | VPN选择教程 | [如何选择VPN？速度、隐私、价格和解锁能力对比](https://agoodvpn.github.io/vpn-guide/how-to-choose-vpn.html) |
 | 免费VPN风险 | [免费VPN安全吗？常见风险、适合场景和替代方案](https://agoodvpn.github.io/vpn-guide/free-vpn-risks.html) |
+| VPN安全 | [VPN安全吗？隐私、日志政策、公共Wi-Fi和使用风险说明](https://agoodvpn.github.io/vpn-guide/vpn-safe.html) |
 | 流媒体访问 | [Netflix VPN怎么选？流媒体解锁、速度和节点地区指南](https://agoodvpn.github.io/vpn-guide/vpn-for-netflix.html) |
 | VPN对比 | [VPN和加速器有什么区别？游戏、办公和流媒体场景怎么选](https://agoodvpn.github.io/vpn-guide/vpn-vs-accelerator.html) |
 | 相关工具 | [虎跃加速器：游戏、视频、社交和跨境办公场景介绍](https://agoodvpn.github.io/vpn-guide/huyue-accelerator.html) |
