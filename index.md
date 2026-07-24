@@ -24,6 +24,7 @@
 - [虎跃加速器：游戏、视频、社交和跨境办公场景介绍](huyue-accelerator.html)
 - [虎跃加速器怎么下载？官网入口、安装步骤和使用前检查](huyue-download-guide.html)
 - [游戏加速器怎么选？外服游戏延迟、丢包和掉线问题处理指南](game-accelerator-guide.html)
+- [VPN安全吗？隐私、日志政策、公共Wi-Fi和使用风险说明](vpn-safe.html)
 
 ## VPN是什么？
 
