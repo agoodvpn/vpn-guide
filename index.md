@@ -214,6 +214,9 @@ VPN 常被用于隐私保护，但不是所有 VPN 都值得信任。
 | 相关工具 | [虎跃加速器](huyue-accelerator.html) |
 | 下载教程 | [虎跃加速器下载指南](huyue-download-guide.html) |
 | 游戏加速 | [游戏加速器怎么选](game-accelerator-guide.html) |
+| VPN安全 | [VPN安全吗](vpn-safe.html) |
+| 远程办公VPN | [远程办公VPN怎么选](vpn-for-remote-work.html) |
+| 手机VPN | [手机VPN怎么选](mobile-vpn-guide.html) |
 
 ## FAQ
 
