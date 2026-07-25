@@ -20,6 +20,7 @@ https://agoodvpn.github.io/vpn-guide/
 | 下载教程 | [虎跃加速器怎么下载？官网入口、安装步骤和使用前检查](https://agoodvpn.github.io/vpn-guide/huyue-download-guide.html) |
 | 游戏加速 | [游戏加速器怎么选？外服游戏延迟、丢包和掉线问题处理指南](https://agoodvpn.github.io/vpn-guide/game-accelerator-guide.html) |
 | 远程办公VPN | [远程办公VPN怎么选？会议、文件传输和公司系统访问指南](https://agoodvpn.github.io/vpn-guide/vpn-for-remote-work.html) |
+| 手机VPN | [手机VPN怎么选？iPhone和安卓用户使用指南](https://agoodvpn.github.io/vpn-guide/mobile-vpn-guide.html) |
 
 ## 适合阅读的人
 
