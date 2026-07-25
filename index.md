@@ -26,6 +26,7 @@
 - [游戏加速器怎么选？外服游戏延迟、丢包和掉线问题处理指南](game-accelerator-guide.html)
 - [VPN安全吗？隐私、日志政策、公共Wi-Fi和使用风险说明](vpn-safe.html)
 - [远程办公VPN怎么选？会议、文件传输和公司系统访问指南](vpn-for-remote-work.html)
+- [手机VPN怎么选？iPhone和安卓用户使用指南](mobile-vpn-guide.html)
 
 ## VPN是什么？
 
