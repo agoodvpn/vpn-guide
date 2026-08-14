@@ -3,3 +3,4 @@ description: 中文VPN推荐、VPN评测、VPN对比、流媒体解锁、远程�
 lang: zh-CN
 url: https://agoodvpn.github.io
 baseurl: /vpn-guide
+theme: jekyll-theme-minimal
