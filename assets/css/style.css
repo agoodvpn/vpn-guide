@@ -663,3 +663,12 @@ img {
     transition-duration: 0.01ms !important;
   }
 }
+.content-body .home-hero h1 {
+  color: #ffffff;
+  text-shadow: 0 2px 22px rgba(0, 0, 0, 0.28);
+}
+
+.content-body .home-hero p {
+  color: #edf5f1;
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.24);
+}
