@@ -1,101 +1,83 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "zh-CN" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#10241f">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10241f">
+  {% seo %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
+<body class="{% if page.url == '/' %}home{% else %}article-page{% endif %}">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
 
-{% seo %}
-
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-
-    {% include head-custom.html %}
-  </head>
-
-  <body class="{% if page.url == '/' %}home{% else %}article-page{% endif %}">
-    <a class="skip-link" href="#main-content">跳到正文</a>
-    <div class="reading-progress" aria-hidden="true"><span></span></div>
-
-    <header class="site-header" data-site-header>
-      <div class="header-inner">
-        <a class="brand" href="{{ "/" | relative_url }}" aria-label="VPN指南首页">
-          <span class="brand-mark" aria-hidden="true">V</span>
-          <span class="brand-copy">
-            <strong>VPN指南</strong>
-            <small>独立选择与安全参考</small>
-          </span>
-        </a>
-
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="打开导航菜单">
-          <span></span><span></span><span></span>
-        </button>
-
-        <nav class="site-nav" id="site-navigation" aria-label="主要导航">
-          <a href="{{ "/best-vpn-2026.html" | relative_url }}">VPN推荐</a>
-          <a href="{{ "/how-to-choose-vpn.html" | relative_url }}">选择指南</a>
-          <a href="{{ "/vpn-safe.html" | relative_url }}">安全与隐私</a>
-          <a href="{{ "/mobile-vpn-guide.html" | relative_url }}">手机VPN</a>
-        </nav>
-      </div>
-    </header>
-
-    <div class="page-frame">
-      <main class="site-main" id="main-content">
-        <article class="content-body">
-          {{ content }}
-        </article>
-      </main>
+  <header class="site-header" data-site-header>
+    <div class="header-inner">
+      <a class="brand" href="{{ "/" | relative_url }}" aria-label="VPN指南首页">
+        <span class="brand-mark" aria-hidden="true">V</span>
+        <span class="brand-copy">
+          <strong>VPN指南</strong>
+          <small>独立选择与安全参考</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false"
+              aria-controls="site-navigation" aria-label="打开导航菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主要导航">
+        <a href="{{ "/best-vpn-2026.html" | relative_url }}">VPN推荐</a>
+        <a href="{{ "/how-to-choose-vpn.html" | relative_url }}">选择指南</a>
+        <a href="{{ "/vpn-safe.html" | relative_url }}">安全与隐私</a>
+        <a href="{{ "/mobile-vpn-guide.html" | relative_url }}">手机VPN</a>
+      </nav>
     </div>
+  </header>
 
-    <footer class="site-footer">
-      <div class="footer-inner">
-        <div>
-          <a class="footer-brand" href="{{ "/" | relative_url }}">VPN指南</a>
-          <p>帮助中文用户从真实场景出发，判断 VPN 的安全性、稳定性与适用范围。</p>
-        </div>
-        <nav aria-label="页脚导航">
-          <a href="{{ "/how-to-choose-vpn.html" | relative_url }}">如何选择</a>
-          <a href="{{ "/free-vpn-risks.html" | relative_url }}">免费VPN风险</a>
-          <a href="{{ "/vpn-for-remote-work.html" | relative_url }}">远程办公</a>
-          <a href="{{ "/vpn-for-netflix.html" | relative_url }}">流媒体指南</a>
-        </nav>
+  <div class="page-frame">
+    <main class="site-main" id="main-content">
+      <article class="content-body">{{ content }}</article>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="{{ "/" | relative_url }}">VPN指南</a>
+        <p>帮助中文用户从真实场景出发，判断 VPN 的安全性、稳定性与适用范围。</p>
       </div>
-      <div class="footer-bottom">内容仅供一般信息参考。使用相关服务前，请遵守所在地法律及服务条款。</div>
-    </footer>
+      <nav aria-label="页脚导航">
+        <a href="{{ "/how-to-choose-vpn.html" | relative_url }}">如何选择</a>
+        <a href="{{ "/free-vpn-risks.html" | relative_url }}">免费VPN风险</a>
+        <a href="{{ "/vpn-for-remote-work.html" | relative_url }}">远程办公</a>
+        <a href="{{ "/vpn-for-netflix.html" | relative_url }}">流媒体指南</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">内容仅供一般信息参考。使用相关服务前，请遵守所在地法律及服务条款。</div>
+  </footer>
 
-    <script>
-      (function () {
-        var header = document.querySelector('[data-site-header]');
-        var toggle = document.querySelector('.menu-toggle');
-        var nav = document.getElementById('site-navigation');
-        var progress = document.querySelector('.reading-progress span');
-
-        function updateScrollState() {
-          var top = window.scrollY || document.documentElement.scrollTop;
-          header.classList.toggle('is-scrolled', top > 12);
-          var height = document.documentElement.scrollHeight - window.innerHeight;
-          progress.style.transform = 'scaleX(' + (height > 0 ? Math.min(top / height, 1) : 0) + ')';
-        }
-
-        toggle.addEventListener('click', function () {
-          var open = toggle.getAttribute('aria-expanded') === 'true';
-          toggle.setAttribute('aria-expanded', String(!open));
-          toggle.setAttribute('aria-label', open ? '打开导航菜单' : '关闭导航菜单');
-          nav.classList.toggle('is-open', !open);
-        });
-
-        nav.addEventListener('click', function (event) {
-          if (event.target.tagName === 'A') {
-            toggle.setAttribute('aria-expanded', 'false');
-            toggle.setAttribute('aria-label', '打开导航菜单');
-            nav.classList.remove('is-open');
-          }
-        });
-
-        window.addEventListener('scroll', updateScrollState, { passive: true });
-        updateScrollState();
-      }());
-    </script>
-  </body>
+  <script>
+    (function () {
+      var header = document.querySelector("[data-site-header]");
+      var toggle = document.querySelector(".menu-toggle");
+      var nav = document.getElementById("site-navigation");
+      var progress = document.querySelector(".reading-progress span");
+      function update() {
+        var top = window.scrollY || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - window.innerHeight;
+        header.classList.toggle("is-scrolled", top > 12);
+        progress.style.transform = "scaleX(" + (height > 0 ? Math.min(top / height, 1) : 0) + ")";
+      }
+      toggle.addEventListener("click", function () {
+        var open = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!open));
+        toggle.setAttribute("aria-label", open ? "打开导航菜单" : "关闭导航菜单");
+        nav.classList.toggle("is-open", !open);
+      });
+      window.addEventListener("scroll", update, { passive: true });
+      update();
+    }());
+  </script>
+</body>
 </html>
