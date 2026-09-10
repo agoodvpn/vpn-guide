@@ -20,6 +20,7 @@
 
 ## 最新文章
 
+- [VPN连不上怎么办？先判断故障现象，再检查网络、节点和账号](vpn-not-working.html)
 - [2026年VPN推荐：适合中文用户的稳定、安全与流媒体解锁选择](best-vpn-2026.html)
 - [如何选择VPN？速度、隐私、价格和解锁能力对比](how-to-choose-vpn.html)
 - [免费VPN安全吗？常见风险、适合场景和替代方案](free-vpn-risks.html)
@@ -221,6 +222,7 @@ VPN 常被用于隐私保护，但不是所有 VPN 都值得信任。
 | VPN安全 | [VPN安全吗](vpn-safe.html) |
 | 远程办公VPN | [远程办公VPN怎么选](vpn-for-remote-work.html) |
 | 手机VPN | [手机VPN怎么选](mobile-vpn-guide.html) |
+| VPN连接故障 | [VPN连不上怎么办](vpn-not-working.html) |
 
 ## FAQ
 
