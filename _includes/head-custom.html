@@ -1,3 +1,6 @@
+{% if page.robots %}
+<meta name="robots" content="{{ page.robots }}">
+{% endif %}
 <meta name="google-site-verification" content="o-gE9VJX7wFlylSLax-RKKz-hVhPmdR9O8zvW-4YnqI" />
 <meta name="msvalidate.01" content="72D1368100F04E271E3EC2CC04D06B2D" />
 
@@ -7,6 +10,5 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-6RD9CPVTPJ');
 </script>
