@@ -9,7 +9,7 @@ description: VPN一直转圈、连接失败或连上后没网？先用交叉测�
 
 如果是公司 VPN，不要自行删除证书、配置描述文件或工作账号。记录报错信息后，优先联系公司的技术支持。
 
-本文更新于 2026 年 9 月 9 日。不同 VPN 客户端的菜单名称可能不同，具体设置以服务商、设备厂商或公司管理员的当前说明为准。
+不同 VPN 客户端的菜单名称可能不同，具体设置以服务商、设备厂商或公司管理员的当前说明为准。
 
 ## 先用一分钟判断是哪类故障
 
@@ -190,7 +190,7 @@ Android 用户除了检查 VPN App，还要留意系统级的“始终开启 VPN
 
 联系客服时提供设备型号、系统版本、客户端版本、发生时间、所选节点、当前网络和完整错误提示。不要发送密码、验证码、恢复码或私钥。
 
-## FAQ
+## 查到这里，几个现象可以这样判断
 
 ### VPN为什么一直显示正在连接？
 
@@ -212,19 +212,23 @@ Android 用户除了检查 VPN App，还要留意系统级的“始终开启 VPN
 
 一般不建议同时连接。两个 VPN 可能争用路由、DNS 或代理设置。访问公司系统时应以公司的配置和安全要求为准。
 
-## 相关阅读
+## 如果问题还没解决
 
 - [如何选择VPN？速度、隐私、价格和解锁能力对比](how-to-choose-vpn.html)
 - [VPN安全吗？隐私、日志政策、公共Wi-Fi和使用风险说明](vpn-safe.html)
 - [手机VPN怎么选？iPhone和安卓用户使用指南](mobile-vpn-guide.html)
 - [远程办公VPN怎么选？会议、文件传输和公司系统访问指南](vpn-for-remote-work.html)
 
+如果连接问题只出现在某一种协议，可以参考 [VPN 协议怎么选](vpn-protocol-guide.html)，一次只改一个变量做对照。
+
 ## 官方设置说明
 
-- [Microsoft Support：在 Windows 中连接 VPN](https://support.microsoft.com/windows/connect-to-a-vpn-in-windows-3d29aeb1-f497-f6b7-7633-115722c1009c)
+- [Microsoft Support：在 Windows 中连接 VPN](https://support.microsoft.com/zh-cn/windows/experience/connectivity-networking/connect-to-a-vpn-in-windows)
 - [Apple Support：检查 VPN 和第三方安全软件造成的网络连接问题](https://support.apple.com/102281)
 - [Android Help：连接和管理 VPN](https://support.google.com/android/answer/9089766)
 
-## 结论
+## 还是连不上时，最后怎么判断
 
 VPN 连不上时，先确认问题只出现在某个节点、某种网络还是某台设备，再沿着这个范围继续查。所有设备和网络都失败时，查看服务状态或联系支持；只有一台设备失败时，再检查本地设置。把重装和网络重置留到最后，往往更省时间。
+
+如果客户端经常是“连上后过几分钟又断”，可以继续看 [VPN 总是掉线怎么办](vpn-keeps-disconnecting.html)；如果显示连接成功但公网 IP 没变化，看 [VPN 连上但 IP 没变怎么排查](vpn-connected-but-ip-not-changed.html)。
