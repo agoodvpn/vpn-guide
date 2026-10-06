@@ -8,7 +8,7 @@ section_url: /huyue-accelerator.html
 
 # 虎跃加速器怎么下载？先认准官方来源
 
-<div class="disclosure-note"><strong>合作说明：</strong>虎跃加速器是本站合作推广产品。下载网络工具时优先使用官网或官方应用商店，不建议从网盘、论坛附件或所谓破解版获取安装包。</div>
+<div class="disclosure-note"><strong>推广说明：</strong>本页含推广链接。下载网络工具时优先使用官网或官方应用商店，不建议从网盘、论坛附件或所谓破解版获取安装包。</div>
 
 虎跃官网当前提供 Windows、Android、iPhone/iPad 和 Mac 入口，并标注 Android 的 Google Play / APK、Apple App Store 以及 Windows 下载方式。
 
