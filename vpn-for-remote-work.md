@@ -1,6 +1,8 @@
 ---
 title: 远程办公VPN怎么用更稳？会议、文件和公司系统实用指南
 description: 远程办公用VPN，重点看会议稳定性、文件同步、固定出口和公司系统兼容性，同时分清个人VPN与公司VPN的用途。
+section: 远程办公
+section_url: /vpn-for-remote-work.html
 ---
 
 # 远程办公用 VPN，最怕的不是慢一点，而是忽然断
@@ -36,7 +38,7 @@ description: 远程办公用VPN，重点看会议稳定性、文件同步、固�
 
 这种情况下，固定 IP 或团队独享 IP 比“节点越多越好”更实用。
 
-共享 IP、固定 IP 和独享 IP 的区别，可以看 [这篇说明](dedicated-ip-vs-shared-ip.html)。
+共享 IP、固定 IP 和独享 IP 的区别，可以看 [固定 IP、共享 IP 和独享 IP 有什么区别](dedicated-ip-vs-shared-ip.html)。
 
 ## 出差住酒店，别把安全全压在 VPN 上
 
@@ -77,3 +79,5 @@ description: 远程办公用VPN，重点看会议稳定性、文件同步、固�
 这类问题通常不是换节点能解决的。
 
 公司只要求部分业务流量进入 VPN 时，会涉及分流和全隧道的区别。个人不要擅自改企业策略，但可以先了解 [VPN 分流是什么](vpn-split-tunneling.html)。
+
+{% include huyue-card.html variant="devices" %}

@@ -12,3 +12,64 @@
   gtag('js', new Date());
   gtag('config', 'G-6RD9CPVTPJ');
 </script>
+
+
+{% assign page_abs = page.url | absolute_url %}
+{% assign home_abs = '/' | absolute_url %}
+{% assign image_abs = page.image | default: '/assets/images/vpn-guide-hero.webp' | absolute_url %}
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.title | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "url": {{ home_abs | jsonify }},
+  "inLanguage": "zh-CN"
+}
+</script>
+{% elsif page.url != '/404.html' and page.url != '/README.html' and page.url != '/about.html' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | default: site.description | jsonify }},
+      "url": {{ page_abs | jsonify }},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": {{ page_abs | jsonify }}},
+      "image": {{ image_abs | jsonify }},
+      "inLanguage": "zh-CN",
+      {% if page.section %}"articleSection": {{ page.section | jsonify }},{% endif %}
+      {% if page.last_reviewed %}"dateModified": {{ page.last_reviewed | jsonify }},{% endif %}
+      "author": {"@type": "Organization", "name": {{ site.title | jsonify }}, "url": {{ home_abs | jsonify }}},
+      "publisher": {"@type": "Organization", "name": {{ site.title | jsonify }}, "url": {{ home_abs | jsonify }}}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "首页", "item": {{ home_abs | jsonify }}},
+        {% if page.section and page.section_url and page.url != page.section_url %}
+        {"@type": "ListItem", "position": 2, "name": {{ page.section | jsonify }}, "item": {{ page.section_url | absolute_url | jsonify }}},
+        {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": {{ page_abs | jsonify }}}
+        {% else %}
+        {"@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": {{ page_abs | jsonify }}}
+        {% endif %}
+      ]
+    }
+  ]
+}
+</script>
+{% elsif page.url == '/about.html' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首页", "item": {{ home_abs | jsonify }}},
+    {"@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": {{ page_abs | jsonify }}}
+  ]
+}
+</script>
+{% endif %}

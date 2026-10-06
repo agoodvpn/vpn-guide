@@ -38,7 +38,10 @@
 
   <div class="page-frame">
     <main class="site-main" id="main-content">
-      <article class="content-body">{{ content }}</article>
+      <article class="content-body">
+        {% if page.url != '/' and page.url != '/404.html' and page.url != '/README.html' %}{% include breadcrumbs.html %}{% endif %}
+        {{ content }}
+      </article>
     </main>
   </div>
 
@@ -55,7 +58,7 @@
         <a href="{{ "/about.html" | relative_url }}">关于本站</a>
       </nav>
     </div>
-    <div class="footer-bottom">内容仅供一般信息参考。使用相关服务前，请遵守所在地法律及服务条款。</div>
+    <div class="footer-bottom">内容仅供一般信息参考。使用相关服务前，请遵守所在地法律及服务条款。本站部分页面含合作推广链接，合作关系不会改变对产品限制、风险和适用场景的说明。</div>
   </footer>
 
   <script>

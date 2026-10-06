@@ -1,6 +1,8 @@
 ---
 title: 手机VPN怎么选？iPhone和Android最该看的不是参数
 description: 手机VPN怎么选？从iPhone和Android安装来源、切网重连、耗电、后台运行、公共Wi-Fi和视频体验出发，给出更贴近日常使用的选择和排查方法。
+section: VPN选择
+section_url: /how-to-choose-vpn.html
 ---
 
 # 手机 VPN 怎么选？iPhone 和 Android 最容易踩的坑不太一样
@@ -13,7 +15,7 @@ description: 手机VPN怎么选？从iPhone和Android安装来源、切网重连
 
 iPhone 上最好直接用 App Store 的官方客户端。安装后第一次建立 VPN 配置时，系统会要求授权，这是正常流程。
 
-真正该测试的是：
+更值得实际测试的是：
 
 - 锁屏十几分钟再打开，连接还在不在；
 - 从 Wi-Fi 切到蜂窝网络后，网页是否能很快恢复；
@@ -72,3 +74,5 @@ Android 设备品牌多，系统对后台应用的限制差异也很大。
 不要第一步就重置整台手机的网络设置。很多时候只是某个节点、DNS 或切网状态卡住了。
 
 完整排查可以看 [VPN 连不上怎么办](vpn-not-working.html)。
+
+{% include huyue-card.html variant="devices" %}

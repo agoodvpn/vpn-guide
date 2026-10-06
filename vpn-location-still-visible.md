@@ -1,6 +1,8 @@
 ---
 title: 开了VPN，网站为什么还知道我在哪？不一定是IP泄露
 description: VPN改了公网IP，但网站仍可能通过浏览器定位权限、GPS、账号信息或本地设置判断位置。先分清IP位置和设备位置。
+section: 故障排查
+section_url: /vpn-not-working.html
 ---
 
 # 开了 VPN，网站为什么还知道我在哪？

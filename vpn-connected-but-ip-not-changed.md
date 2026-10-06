@@ -1,6 +1,8 @@
 ---
 title: VPN连上了但IP没变？先排除这6种情况
 description: VPN显示已连接但查询到的公网IP没有变化，可能是分流、IPv6、节点异常或应用没有走VPN。按这几个步骤排查更快。
+section: 故障排查
+section_url: /vpn-not-working.html
 ---
 
 # VPN 连上了，但 IP 为什么没变？
@@ -75,7 +77,7 @@ Windows 的官方 VPN 路由文档把这类方式称为 split tunnel：只有指
 
 更稳妥的做法是换两个不同的检测站交叉确认，不要根据一个页面就判断 VPN 是否失效。
 
-## 我一般会这样排查
+## 最快的排查顺序
 
 顺序不用太复杂：
 

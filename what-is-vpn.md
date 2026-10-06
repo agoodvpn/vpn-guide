@@ -1,6 +1,8 @@
 ---
 title: VPN是什么？能做什么、不能做什么，一篇讲清楚
 description: VPN是什么？用普通用户能看懂的方式解释VPN如何工作、能隐藏什么、不能解决什么，以及办公、公共Wi-Fi、视频和多设备场景该怎么判断。
+section: VPN入门
+section_url: /what-is-vpn.html
 ---
 
 # VPN 是什么？别先背协议，先弄懂它到底改变了什么

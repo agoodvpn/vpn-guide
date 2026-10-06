@@ -1,6 +1,8 @@
 ---
 title: VPN Kill Switch是什么？什么时候值得开启
 description: VPN Kill Switch会在VPN断开时阻止流量直接走本地网络。它适合哪些场景、为什么会导致“断网”，以及怎么判断是否需要开启。
+section: 隐私安全
+section_url: /vpn-safe.html
 ---
 
 # VPN Kill Switch 到底有什么用？

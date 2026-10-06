@@ -1,6 +1,8 @@
 ---
 title: VPN分流是什么？全局模式和分流模式怎么选
 description: VPN分流会让部分流量走VPN、部分流量直连。搞清楚Split Tunneling和全局模式的区别，才能避免IP没变、速度慢和应用冲突。
+section: VPN入门
+section_url: /what-is-vpn.html
 ---
 
 # VPN 分流是什么？

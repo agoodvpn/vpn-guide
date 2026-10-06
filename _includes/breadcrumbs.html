@@ -1,0 +1,9 @@
+<nav class="breadcrumbs" aria-label="面包屑导航">
+  <a href="{{ '/' | relative_url }}">首页</a>
+  <span class="breadcrumbs__sep" aria-hidden="true">›</span>
+  {% if page.section and page.section_url and page.url != page.section_url %}
+    <a href="{{ page.section_url | relative_url }}">{{ page.section }}</a>
+    <span class="breadcrumbs__sep" aria-hidden="true">›</span>
+  {% endif %}
+  <span aria-current="page">{{ page.title }}</span>
+</nav>

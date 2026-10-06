@@ -6,3 +6,10 @@ baseurl: /vpn-guide
 
 plugins:
   - jekyll-seo-tag
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/vpn-guide-hero.webp

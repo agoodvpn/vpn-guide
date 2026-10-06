@@ -1,11 +1,13 @@
 ---
 title: 看4K视频需要多少网速？开VPN后怎么算才够
 description: 4K视频不是只看宽带套餐数字。Netflix建议UHD至少15Mbps，但开VPN后还要考虑线路损耗、Wi-Fi、多人同时观看和节点稳定性。
+section: 视频与流媒体
+section_url: /vpn-for-netflix.html
 ---
 
 # 看 4K 视频，到底要多少网速才够？
 
-如果只问“4K 最低要多少带宽”，[Netflix 当前给出的建议](https://help.netflix.com/en/node/306)是 UHD / 4K 使用**稳定 15 Mbps 或以上**的连接。但实际用 VPN 看视频时，我不会把 15 Mbps 当成“过线就稳”的标准，因为家里还有 Wi-Fi 波动、线路损耗、其他设备抢带宽这些变量。
+如果只问“4K 最低要多少带宽”，[Netflix 当前给出的建议](https://help.netflix.com/zh-cn/node/306)是 UHD / 4K 使用**稳定 15 Mbps 或以上**的连接。但实际用 VPN 看视频时，我不会把 15 Mbps 当成“过线就稳”的标准，因为家里还有 Wi-Fi 波动、线路损耗、其他设备抢带宽这些变量。
 
 换句话说，**测速跑到 15 Mbps，不等于任何时候都能稳看 4K。**
 
@@ -13,7 +15,7 @@ description: 4K视频不是只看宽带套餐数字。Netflix建议UHD至少15Mb
 
 宽带套餐写的是接入上限，不是你在电视上通过某个节点访问某个平台时的实际可用速度。
 
-真正影响播放的，是这一整条路径：
+影响播放的是这一整条路径：
 
 **运营商 → 家里路由器 → Wi-Fi / 网线 → VPN 节点 → 流媒体平台。**
 
@@ -68,3 +70,5 @@ description: 4K视频不是只看宽带套餐数字。Netflix建议UHD至少15Mb
 网络只是 4K 的一个环节。把所有问题都归到 VPN 上，往往会漏掉真正的瓶颈。
 
 如果你主要关心 Netflix，可以继续看 [Netflix 与流媒体网络怎么判断](vpn-for-netflix.html)。
+
+{% include huyue-card.html variant="streaming" %}

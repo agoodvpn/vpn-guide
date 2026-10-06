@@ -1,6 +1,8 @@
 ---
 title: VPN协议怎么选？WireGuard、OpenVPN和IKEv2对比
 description: WireGuard、OpenVPN、IKEv2怎么选？不用背协议参数，从速度、稳定性、移动网络切换和兼容性几个场景就能判断。
+section: VPN入门
+section_url: /what-is-vpn.html
 ---
 
 # VPN 协议怎么选？普通用户不用背一堆参数
@@ -52,7 +54,7 @@ IKEv2/IPsec 在移动设备上很常见，一个实际优势是设备从 Wi-Fi �
 
 每次只改一项，不然你最后也不知道是哪一步起作用。
 
-## 我会怎么选
+## 按使用场景选协议
 
 **日常电脑和手机：** 自动模式稳定就不动；想手动选时先试 WireGuard。
 

@@ -1,6 +1,8 @@
 ---
 title: VPN和加速器有什么区别？游戏、视频、办公怎么选
 description: VPN和加速器不是一回事。对比加密、网络路径、游戏延迟、视频、远程办公和多设备场景，看什么情况下更适合VPN，什么情况下加速器更直接。
+section: 游戏与加速
+section_url: /game-accelerator-guide.html
 ---
 
 # VPN 和加速器有什么区别？看你是想“保护连接”还是“改善线路”
@@ -66,7 +68,7 @@ YouTube、Netflix 这类视频服务，对持续吞吐和节点稳定性很敏�
 
 概念不清楚的话，可以看 [共享 IP、固定 IP、独享 IP 和专属节点](dedicated-ip-vs-shared-ip.html)。
 
-## 最后怎么选？
+## 怎么选更合适？
 
 只玩游戏：先试加速器。
 
@@ -77,3 +79,5 @@ YouTube、Netflix 这类视频服务，对持续吞吐和节点稳定性很敏�
 团队固定出口：直接把固定 IP / 独享 IP 列为硬条件。
 
 如果还是拿不准，可以从 [VPN 是什么](what-is-vpn.html) 开始，把自己的需求先归类，再选工具会简单很多。
+
+{% include huyue-card.html variant="general" %}

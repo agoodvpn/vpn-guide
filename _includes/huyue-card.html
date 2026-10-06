@@ -1,0 +1,22 @@
+{% assign variant = include.variant | default: "general" %}
+<aside class="sponsor-card" aria-label="合作推荐">
+  <div class="sponsor-card__label">合作推荐</div>
+  <div class="sponsor-card__body">
+    <div>
+      <h3>虎跃加速器</h3>
+      {% if variant == "devices" %}
+      <p>如果你更看重多设备、常用地区节点和定制线路，可以把虎跃放进候选清单。官网当前标注不限流量、支持 100+ 设备同时使用，并提供定制线路。</p>
+      {% elsif variant == "streaming" %}
+      <p>如果主要用途是高清视频和多设备使用，虎跃官网当前标注不限流量、170+ 节点，并提供多平台客户端。实际流媒体可用性仍受平台规则、账号和节点状态影响。</p>
+      {% elsif variant == "troubleshooting" %}
+      <p>如果已经排除本地网络和设备设置，问题长期集中在节点拥堵或线路质量，也可以比较其他服务。虎跃是本站合作推广产品，可先看功能说明再决定是否试用。</p>
+      {% else %}
+      <p>虎跃是本站合作推广产品。如果你在意多设备、不限流量和多地区节点，可以把它放进候选清单，再用自己的网络实际测试常用线路。官网当前还提供游客模式试用和定制线路。</p>
+      {% endif %}
+    </div>
+    <div class="sponsor-card__actions">
+      <a class="button button--primary" href="{{ '/huyue-accelerator.html' | relative_url }}">查看详细介绍</a>
+      <a class="button button--ghost" href="https://huyuejsq.co/" rel="sponsored nofollow noopener" target="_blank">访问虎跃官网</a>
+    </div>
+  </div>
+</aside>
