@@ -7,7 +7,7 @@
     {% if variant == "devices" %}
     <p class="sponsor-card__copy">覆盖常用地区线路，多设备同时使用，并支持定制专属线路。</p>
     {% elsif variant == "streaming" %}
-    <p class="sponsor-card__copy">覆盖常用地区线路，兼顾高清视频、海外应用和多设备使用。</p>
+    <p class="sponsor-card__copy">覆盖常用地区线路，兼顾高清视频、海外应用访问和多设备使用。</p>
     {% elsif variant == "troubleshooting" %}
     <p class="sponsor-card__copy">多地区节点可选，适合需要切换线路或寻找替代线路的使用场景。</p>
     {% else %}
@@ -19,6 +19,12 @@
     </div>
   </div>
   <div class="sponsor-card__visual" aria-hidden="true">
-    <img src="{{ '/assets/images/huyue/nodes.webp' | relative_url }}" alt="" width="576" height="1280" loading="lazy" decoding="async">
+    <span class="sponsor-card__ring sponsor-card__ring--one"></span>
+    <span class="sponsor-card__ring sponsor-card__ring--two"></span>
+    <span class="sponsor-card__beam sponsor-card__beam--one"></span>
+    <span class="sponsor-card__beam sponsor-card__beam--two"></span>
+    <span class="sponsor-card__dot sponsor-card__dot--one"></span>
+    <span class="sponsor-card__dot sponsor-card__dot--two"></span>
+    <span class="sponsor-card__dot sponsor-card__dot--three"></span>
   </div>
 </aside>

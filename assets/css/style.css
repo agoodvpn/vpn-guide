@@ -699,18 +699,18 @@ img {
 .sponsor-card {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(300px, .85fr);
-  min-height: 224px;
-  margin: 32px 0 40px;
+  grid-template-columns: minmax(0, 1.55fr) minmax(180px, .65fr);
+  min-height: 136px;
+  margin: 28px 0 34px;
   overflow: hidden;
   color: #fff;
   background:
-    radial-gradient(circle at 76% 20%, rgba(130, 103, 255, .46), transparent 28%),
-    radial-gradient(circle at 8% 110%, rgba(90, 68, 204, .34), transparent 36%),
-    linear-gradient(120deg, #15102a 0%, #24194a 47%, #4c38a7 100%);
-  border: 1px solid rgba(145, 124, 255, .42);
-  border-radius: 18px;
-  box-shadow: 0 18px 42px rgba(35, 24, 78, .18);
+    radial-gradient(circle at 86% 14%, rgba(76, 219, 255, .34), transparent 26%),
+    radial-gradient(circle at 76% 72%, rgba(135, 88, 255, .32), transparent 28%),
+    linear-gradient(125deg, #09131f 0%, #101d33 42%, #15274c 72%, #1f2f68 100%);
+  border: 1px solid rgba(101, 195, 255, .26);
+  border-radius: 16px;
+  box-shadow: 0 14px 36px rgba(10, 20, 48, .16);
   isolation: isolate;
 }
 
@@ -719,113 +719,175 @@ img {
   position: absolute;
   inset: 0;
   z-index: -1;
-  opacity: .18;
-  background-image:
-    linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
-  background-size: 32px 32px;
-  mask-image: linear-gradient(90deg, transparent, #000 48%, #000);
+  background:
+    linear-gradient(90deg, rgba(106, 232, 255, .08) 0 1px, transparent 1px),
+    linear-gradient(rgba(106, 232, 255, .06) 0 1px, transparent 1px);
+  background-size: 22px 22px;
+  mask-image: linear-gradient(90deg, transparent, #000 22%, #000 100%);
+  opacity: .55;
 }
 
 .sponsor-card__content {
   position: relative;
   z-index: 2;
   align-self: center;
-  padding: 24px 18px 24px 28px;
+  padding: 16px 14px 16px 22px;
 }
 
 .sponsor-card__label {
   display: inline-flex;
   align-items: center;
-  margin-bottom: 10px;
-  padding: 4px 10px;
-  color: #f0edff;
-  background: rgba(126, 102, 255, .2);
-  border: 1px solid rgba(209, 201, 255, .22);
+  margin-bottom: 6px;
+  padding: 3px 9px;
+  color: #e8fbff;
+  background: rgba(77, 225, 255, .11);
+  border: 1px solid rgba(130, 233, 255, .22);
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 760;
-  letter-spacing: .05em;
-  backdrop-filter: blur(8px);
+  letter-spacing: .06em;
+  backdrop-filter: blur(6px);
 }
 
 .sponsor-card h3 {
-  margin: 0 0 6px;
+  margin: 0 0 2px;
   color: #fff;
-  font-size: clamp(25px, 3vw, 34px);
-  line-height: 1.12;
+  font-size: clamp(22px, 2.4vw, 29px);
+  line-height: 1.08;
   letter-spacing: -.02em;
 }
 
 .sponsor-card__tagline {
-  margin: 0 0 8px !important;
-  color: #e0dbff !important;
-  font-size: 17px;
-  font-weight: 780;
-  letter-spacing: .015em;
+  margin: 0 0 4px !important;
+  color: #d5efff !important;
+  font-size: 14px;
+  font-weight: 760;
+  letter-spacing: .01em;
 }
 
 .sponsor-card__copy {
-  max-width: 620px;
+  max-width: 560px;
   margin: 0 !important;
-  color: rgba(248, 246, 255, .88) !important;
-  font-size: 15px;
-  line-height: 1.7;
+  color: rgba(241, 249, 255, .82) !important;
+  font-size: 13px;
+  line-height: 1.55;
 }
 
 .sponsor-card__actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 16px;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .sponsor-card__visual {
   position: relative;
-  min-height: 224px;
+  min-height: 136px;
   overflow: hidden;
 }
 
 .sponsor-card__visual::before {
   content: "";
   position: absolute;
-  inset: 14px 16px 14px 0;
-  z-index: 1;
-  border: 1px solid rgba(255,255,255,.14);
-  border-radius: 16px;
-  box-shadow: 0 18px 38px rgba(7, 4, 24, .28);
-  pointer-events: none;
+  inset: 10px 16px 10px 0;
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(83, 226, 255, .25), transparent 35%),
+    linear-gradient(135deg, rgba(255,255,255,.05), rgba(255,255,255,.01));
+  border: 1px solid rgba(126, 226, 255, .18);
+  box-shadow: inset 0 0 18px rgba(81, 195, 255, .1), 0 10px 24px rgba(8, 20, 48, .24);
 }
 
 .sponsor-card__visual::after {
   content: "";
   position: absolute;
   inset: 0;
-  z-index: 2;
-  background:
-    linear-gradient(90deg, #24194a 0%, rgba(36,25,74,.58) 16%, transparent 48%),
-    linear-gradient(180deg, rgba(17,12,38,.02), rgba(17,12,38,.16));
-  pointer-events: none;
+  background: linear-gradient(90deg, rgba(10, 19, 36, .88) 0%, rgba(10, 19, 36, .38) 24%, rgba(10, 19, 36, 0) 58%);
 }
 
-.sponsor-card__visual img {
+.sponsor-card__ring,
+.sponsor-card__beam,
+.sponsor-card__dot {
   position: absolute;
-  inset: 14px 16px 14px 0;
-  width: calc(100% - 16px);
-  height: calc(100% - 28px);
-  object-fit: cover;
-  object-position: 50% 22%;
-  border-radius: 16px;
-  filter: saturate(.96) contrast(1.03);
-  transform: scale(1.035);
+  display: block;
+}
+
+.sponsor-card__ring {
+  border: 1px solid rgba(120, 233, 255, .42);
+  border-radius: 50%;
+  box-shadow: 0 0 18px rgba(104, 227, 255, .16), inset 0 0 14px rgba(104, 227, 255, .08);
+}
+
+.sponsor-card__ring--one {
+  top: 17px;
+  right: 48px;
+  width: 104px;
+  height: 104px;
+}
+
+.sponsor-card__ring--two {
+  top: 35px;
+  right: 84px;
+  width: 58px;
+  height: 58px;
+  border-color: rgba(180, 147, 255, .52);
+}
+
+.sponsor-card__beam {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(117, 234, 255, 0), rgba(117, 234, 255, .9), rgba(117, 234, 255, 0));
+  box-shadow: 0 0 14px rgba(117, 234, 255, .38);
+}
+
+.sponsor-card__beam--one {
+  top: 38px;
+  right: 18px;
+  width: 156px;
+  transform: rotate(-20deg);
+}
+
+.sponsor-card__beam--two {
+  bottom: 34px;
+  right: 30px;
+  width: 136px;
+  transform: rotate(19deg);
+}
+
+.sponsor-card__dot {
+  width: 8px;
+  height: 8px;
+  background: #9ef6ff;
+  border-radius: 50%;
+  box-shadow: 0 0 16px rgba(158, 246, 255, .92);
+}
+
+.sponsor-card__dot--one {
+  top: 30px;
+  right: 88px;
+}
+
+.sponsor-card__dot--two {
+  top: 72px;
+  right: 138px;
+  width: 6px;
+  height: 6px;
+}
+
+.sponsor-card__dot--three {
+  bottom: 28px;
+  right: 60px;
+  width: 7px;
+  height: 7px;
+  background: #cab6ff;
+  box-shadow: 0 0 16px rgba(202, 182, 255, .86);
 }
 
 .button {
   display: inline-flex;
-  min-height: 42px;
-  padding: 9px 16px;
+  min-height: 36px;
+  padding: 8px 14px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   text-decoration: none;
   align-items: center;
@@ -839,15 +901,15 @@ img {
 
 .button--primary,
 .button--primary:hover {
-  color: #24184f;
-  background: #fff;
-  box-shadow: 0 8px 24px rgba(8, 4, 30, .16);
+  color: #10233f;
+  background: #effcff;
+  box-shadow: 0 8px 20px rgba(6, 19, 38, .16);
 }
 
 .button--ghost {
   color: #fff;
   background: rgba(255,255,255,.08);
-  border: 1px solid rgba(255,255,255,.36);
+  border: 1px solid rgba(195, 241, 255, .28);
   backdrop-filter: blur(8px);
 }
 
@@ -913,70 +975,101 @@ img {
 @media (max-width: 760px) {
   .sponsor-card {
     display: block;
-    min-height: 216px;
-    margin: 28px 0 34px;
+    min-height: 132px;
+    margin: 24px 0 30px;
   }
 
   .sponsor-card__content {
     position: relative;
     z-index: 3;
-    padding: 20px 18px 18px;
+    padding: 14px 16px;
   }
 
   .sponsor-card h3 {
-    font-size: 27px;
+    font-size: 22px;
   }
 
   .sponsor-card__tagline {
-    max-width: 82%;
-    font-size: 15px;
+    max-width: 76%;
+    font-size: 13px;
   }
 
   .sponsor-card__copy {
-    max-width: 80%;
-    font-size: 14px;
-    line-height: 1.65;
+    max-width: 72%;
+    font-size: 12px;
+    line-height: 1.52;
   }
 
   .sponsor-card__visual {
     position: absolute;
     inset: 0 0 0 auto;
-    width: 50%;
+    width: 42%;
     min-height: 100%;
-    opacity: .5;
+    opacity: .92;
   }
 
   .sponsor-card__visual::before {
-    inset: 0;
-    border: 0;
-    border-radius: 0;
-    box-shadow: none;
+    inset: 8px 8px 8px 0;
+    border-radius: 16px;
   }
 
   .sponsor-card__visual::after {
-    background: linear-gradient(90deg, #211743 0%, rgba(33,23,67,.58) 28%, rgba(33,23,67,.06) 100%);
+    background: linear-gradient(90deg, rgba(8, 16, 31, .92) 0%, rgba(8, 16, 31, .42) 38%, rgba(8, 16, 31, 0) 100%);
   }
 
-  .sponsor-card__visual img {
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 48% 20%;
-    border-radius: 0;
-    transform: scale(1.08);
+  .sponsor-card__ring--one {
+    top: 18px;
+    right: 20px;
+    width: 84px;
+    height: 84px;
+  }
+
+  .sponsor-card__ring--two {
+    top: 36px;
+    right: 48px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .sponsor-card__beam--one {
+    top: 34px;
+    right: -6px;
+    width: 108px;
+  }
+
+  .sponsor-card__beam--two {
+    bottom: 30px;
+    right: 4px;
+    width: 92px;
+  }
+
+  .sponsor-card__dot--one {
+    top: 28px;
+    right: 54px;
+  }
+
+  .sponsor-card__dot--two {
+    top: 62px;
+    right: 92px;
+  }
+
+  .sponsor-card__dot--three {
+    bottom: 24px;
+    right: 28px;
   }
 
   .sponsor-card__actions {
     display: flex;
     flex-wrap: nowrap;
-    gap: 8px;
+    gap: 7px;
+    margin-top: 9px;
   }
 
   .sponsor-card .button {
     width: auto;
-    min-width: 104px;
-    padding-inline: 13px;
+    min-width: 92px;
+    min-height: 34px;
+    padding-inline: 12px;
   }
 
   .quick-links {
@@ -1016,5 +1109,542 @@ img {
 @media (max-width: 720px) {
   .decision-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 22px;
+}
+
+.page-nav {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 22px 0 34px;
+}
+
+.page-nav a {
+  display: block;
+  padding: 16px 18px;
+  color: var(--ink);
+  text-decoration: none;
+  background: #f7fbfb;
+  border: 1px solid rgba(22, 130, 102, .12);
+  border-radius: 14px;
+  box-shadow: 0 10px 26px rgba(16, 36, 31, .04);
+}
+
+.page-nav a strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 15px;
+  color: var(--forest);
+}
+
+.page-nav a span {
+  display: block;
+  color: #60716b;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.page-nav a:hover {
+  border-color: rgba(22, 130, 102, .28);
+  transform: translateY(-1px);
+}
+
+.fact-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 12px 0 26px;
+}
+
+.fact-strip__item {
+  padding: 18px 18px 16px;
+  background: linear-gradient(180deg, #f8fbfb 0%, #f2f7f5 100%);
+  border: 1px solid rgba(23, 56, 48, .10);
+  border-radius: 16px;
+}
+
+.fact-strip__eyebrow {
+  display: block;
+  margin-bottom: 8px;
+  color: #678078;
+  font-size: 12px;
+  letter-spacing: .05em;
+}
+
+.fact-strip strong {
+  display: block;
+  color: var(--forest);
+  font-size: 24px;
+  line-height: 1.05;
+}
+
+.fact-strip small {
+  display: block;
+  margin-top: 6px;
+  color: #60716b;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.note-inline {
+  margin: -10px 0 26px;
+  color: #6b7d77;
+  font-size: 13px;
+}
+
+.shot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+
+.shot-grid .product-shot {
+  margin: 8px 0 18px;
+}
+
+.checklist-panel {
+  margin: 20px 0 28px;
+  padding: 20px 22px;
+  background: linear-gradient(180deg, #f8fbfa 0%, #f3f8f6 100%);
+  border: 1px solid rgba(23, 56, 48, .11);
+  border-radius: 16px;
+}
+
+.checklist-panel h3 {
+  margin-top: 0;
+}
+
+.checklist-panel ol {
+  margin-bottom: 0;
+}
+
+.inline-card {
+  margin: 16px 0 20px;
+  padding: 18px 20px;
+  background: #f7fbfb;
+  border: 1px solid rgba(22, 130, 102, .12);
+  border-radius: 14px;
+}
+
+.inline-card p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 860px) {
+  .page-nav,
+  .fact-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .page-actions {
+    gap: 8px;
+  }
+
+  .page-nav,
+  .fact-strip,
+  .shot-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-nav a,
+  .fact-strip__item,
+  .checklist-panel,
+  .inline-card {
+    padding: 16px;
+  }
+}
+
+
+/* v8 polish: compact sponsor banner and Huyue product landing page */
+.sponsor-card {
+  grid-template-columns: minmax(0, 1fr) 210px;
+  min-height: 126px;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(7, 18, 43, .14);
+}
+
+.sponsor-card__content {
+  padding: 14px 14px 14px 20px;
+}
+
+.sponsor-card__label {
+  margin-bottom: 5px;
+  padding: 2px 8px;
+  font-size: 10px;
+}
+
+.sponsor-card h3 {
+  margin-bottom: 1px;
+  font-size: clamp(21px, 2.3vw, 27px);
+}
+
+.sponsor-card__tagline {
+  margin-bottom: 3px !important;
+  font-size: 13px;
+}
+
+.sponsor-card__copy {
+  font-size: 12px;
+  line-height: 1.48;
+}
+
+.sponsor-card__actions {
+  margin-top: 8px;
+}
+
+.sponsor-card__visual {
+  min-height: 126px;
+}
+
+.sponsor-card__ring--one {
+  top: 12px;
+  right: 38px;
+  width: 96px;
+  height: 96px;
+}
+
+.sponsor-card__ring--two {
+  top: 30px;
+  right: 72px;
+  width: 54px;
+  height: 54px;
+}
+
+.sponsor-card__beam--one {
+  top: 31px;
+  right: 10px;
+  width: 150px;
+}
+
+.sponsor-card__beam--two {
+  bottom: 27px;
+  right: 20px;
+  width: 126px;
+}
+
+/* Buttons used on light page backgrounds should not inherit the sponsor ghost treatment. */
+.page-actions .button--primary {
+  color: #fff;
+  background: var(--forest);
+  border: 1px solid var(--forest);
+  box-shadow: 0 9px 22px rgba(16, 36, 31, .12);
+}
+
+.page-actions .button--primary:hover {
+  color: #fff;
+  background: #183b31;
+}
+
+.page-actions .button--ghost {
+  color: var(--forest);
+  background: #fff;
+  border: 1px solid rgba(16, 36, 31, .18);
+  backdrop-filter: none;
+}
+
+.page-actions .button--ghost:hover {
+  color: var(--forest);
+  background: #f3f8f6;
+  border-color: rgba(22, 130, 102, .28);
+}
+
+.huyue-hero {
+  position: relative;
+  margin: -6px 0 30px;
+  padding: 30px 32px 28px;
+  overflow: hidden;
+  color: #fff;
+  background:
+    radial-gradient(circle at 84% 18%, rgba(84, 224, 255, .23), transparent 25%),
+    radial-gradient(circle at 72% 92%, rgba(139, 93, 255, .22), transparent 30%),
+    linear-gradient(128deg, #09141f 0%, #10233d 48%, #1a2f5e 100%);
+  border: 1px solid rgba(99, 205, 255, .24);
+  border-radius: 20px;
+  box-shadow: 0 18px 42px rgba(9, 23, 48, .12);
+  isolation: isolate;
+}
+
+.huyue-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(118, 227, 255, .055) 1px, transparent 1px),
+    linear-gradient(rgba(118, 227, 255, .045) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: linear-gradient(90deg, transparent 8%, #000 48%, #000 100%);
+}
+
+.huyue-hero::after {
+  content: "";
+  position: absolute;
+  right: -66px;
+  top: -92px;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgba(118, 227, 255, .25);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 30px rgba(111, 219, 255, .025),
+    0 0 0 64px rgba(145, 108, 255, .02),
+    inset 0 0 32px rgba(111, 219, 255, .05);
+}
+
+.huyue-hero__eyebrow {
+  display: inline-flex;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  color: #dffaff;
+  background: rgba(100, 222, 255, .09);
+  border: 1px solid rgba(135, 230, 255, .18);
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 760;
+  letter-spacing: .08em;
+}
+
+.content-body .huyue-hero h1 {
+  max-width: 690px;
+  margin: 0 0 12px;
+  color: #fff;
+  font-size: clamp(30px, 5vw, 46px);
+  line-height: 1.13;
+  letter-spacing: -.035em;
+}
+
+.content-body .huyue-hero p {
+  max-width: 690px;
+  margin: 0;
+  color: rgba(237, 248, 255, .88);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.huyue-hero .page-actions {
+  position: relative;
+  z-index: 2;
+  margin: 18px 0 0;
+}
+
+.huyue-hero .button--primary {
+  color: #10233f;
+  background: #ecfbff;
+  border-color: transparent;
+}
+
+.huyue-hero .button--primary:hover {
+  color: #10233f;
+  background: #fff;
+}
+
+.huyue-hero .button--ghost {
+  color: #fff;
+  background: rgba(255,255,255,.06);
+  border-color: rgba(211, 244, 255, .28);
+}
+
+.huyue-hero .button--ghost:hover {
+  color: #fff;
+  background: rgba(255,255,255,.12);
+}
+
+.huyue-disclosure {
+  margin: 0 0 14px;
+  color: #667771;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.huyue-summary {
+  margin: 0 0 32px;
+}
+
+.huyue-summary .fact-strip {
+  margin-top: 0;
+}
+
+.huyue-summary .fact-strip__item {
+  min-height: 132px;
+  padding: 17px 18px 16px;
+  background: linear-gradient(180deg, #fbfdfc 0%, #f4f8f6 100%);
+}
+
+.huyue-summary .fact-strip strong {
+  font-size: 26px;
+}
+
+.page-nav--compact {
+  gap: 10px;
+  margin: 18px 0 40px;
+}
+
+.page-nav--compact a {
+  padding: 13px 14px;
+  border-radius: 12px;
+}
+
+.page-nav--compact a strong {
+  font-size: 14px;
+}
+
+.page-nav--compact a span {
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.huyue-section-lead {
+  max-width: 720px;
+  margin-top: -6px;
+  color: #536660;
+}
+
+.huyue-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0 28px;
+}
+
+.huyue-feature-card {
+  padding: 19px 20px;
+  background: #f8fbfa;
+  border: 1px solid rgba(23, 56, 48, .11);
+  border-radius: 15px;
+}
+
+.huyue-feature-card h3 {
+  margin: 0 0 8px;
+  color: var(--forest);
+  font-size: 17px;
+}
+
+.huyue-feature-card p {
+  margin: 0 !important;
+  color: #536660;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.shot-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 20px 0 26px;
+}
+
+.shot-grid--three .product-shot {
+  margin: 0;
+}
+
+.shot-grid--three .product-shot img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.shot-grid--three .product-shot figcaption {
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+.huyue-cta {
+  margin: 44px 0 4px;
+  padding: 22px 24px;
+  background: linear-gradient(135deg, #10241f, #173b32);
+  border-radius: 16px;
+  color: #fff;
+}
+
+.huyue-cta h2 {
+  margin: 0 0 6px !important;
+  color: #fff;
+  font-size: 22px !important;
+}
+
+.huyue-cta h2::before {
+  display: none;
+}
+
+.huyue-cta p {
+  margin: 0 !important;
+  color: rgba(237, 247, 243, .84);
+  font-size: 14px;
+}
+
+.huyue-cta .page-actions {
+  margin: 14px 0 0;
+}
+
+@media (max-width: 760px) {
+  .sponsor-card {
+    min-height: 124px;
+    margin: 22px 0 28px;
+  }
+
+  .sponsor-card__content {
+    padding: 13px 14px;
+  }
+
+  .sponsor-card h3 {
+    font-size: 21px;
+  }
+
+  .sponsor-card__tagline {
+    max-width: 78%;
+    font-size: 12px;
+  }
+
+  .sponsor-card__copy {
+    max-width: 70%;
+    font-size: 11px;
+  }
+
+  .sponsor-card__visual {
+    width: 39%;
+  }
+
+  .huyue-hero {
+    margin-top: -4px;
+    padding: 24px 20px 22px;
+    border-radius: 17px;
+  }
+
+  .content-body .huyue-hero h1 {
+    font-size: 31px;
+  }
+
+  .content-body .huyue-hero p {
+    font-size: 14px;
+  }
+
+  .huyue-hero::after {
+    right: -116px;
+    top: -96px;
+  }
+
+  .huyue-feature-grid,
+  .shot-grid--three {
+    grid-template-columns: 1fr;
+  }
+
+  .shot-grid--three .product-shot img {
+    width: min(360px, 100%);
+    max-height: none;
+  }
+
+  .huyue-summary .fact-strip__item {
+    min-height: 0;
   }
 }
