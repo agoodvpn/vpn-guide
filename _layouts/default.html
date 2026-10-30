@@ -54,6 +54,7 @@
       <nav aria-label="页脚导航">
         <a href="{{ "/what-is-vpn.html" | relative_url }}">VPN是什么</a>
         <a href="{{ "/vpn-vs-accelerator.html" | relative_url }}">VPN与加速器</a>
+        <a href="{{ "/vpn-vs-proxy.html" | relative_url }}">VPN与代理</a>
         <a href="{{ "/dedicated-ip-vs-shared-ip.html" | relative_url }}">固定IP与独享IP</a>
         <a href="{{ "/about.html" | relative_url }}">关于本站</a>
       </nav>
@@ -70,14 +71,40 @@
       function update() {
         var top = window.scrollY || document.documentElement.scrollTop;
         var height = document.documentElement.scrollHeight - window.innerHeight;
-        header.classList.toggle("is-scrolled", top > 12);
-        progress.style.transform = "scaleX(" + (height > 0 ? Math.min(top / height, 1) : 0) + ")";
+        if (header) header.classList.toggle("is-scrolled", top > 12);
+        if (progress) progress.style.transform = "scaleX(" + (height > 0 ? Math.min(top / height, 1) : 0) + ")";
       }
       toggle.addEventListener("click", function () {
         var open = toggle.getAttribute("aria-expanded") === "true";
         toggle.setAttribute("aria-expanded", String(!open));
         toggle.setAttribute("aria-label", open ? "打开导航菜单" : "关闭导航菜单");
         nav.classList.toggle("is-open", !open);
+      });
+      nav.addEventListener("click", function (event) {
+        if (event.target.closest("a")) {
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.setAttribute("aria-label", "打开导航菜单");
+          nav.classList.remove("is-open");
+        }
+      });
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.setAttribute("aria-label", "打开导航菜单");
+          nav.classList.remove("is-open");
+          toggle.focus();
+        }
+      });
+      // Measure actual clicks, never impressions as conversions.
+      document.addEventListener("click", function (event) {
+        var a = event.target.closest && event.target.closest("a[href]");
+        if (!a || typeof window.gtag !== "function") return;
+        var destination = a.href;
+        if (a.closest(".partner-banner")) {
+          window.gtag("event", "product_page_click", { link_url: destination, location: "partner_banner" });
+        } else if (a.hostname && a.hostname !== location.hostname) {
+          window.gtag("event", "outbound_official_click", { link_url: destination });
+        }
       });
       window.addEventListener("scroll", update, { passive: true });
       update();

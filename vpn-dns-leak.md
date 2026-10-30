@@ -70,3 +70,6 @@ Chrome、Edge、Firefox 等浏览器都可能启用自己的 Secure DNS / DNS ov
 不是。DNS 泄露讨论的是域名解析请求的去向；IP 泄露通常指真实公网 IP 通过某种路径暴露。浏览器里的 WebRTC、IPv6 配置、代理规则等也可能涉及 IP 暴露问题，不能只靠一个 DNS 测试页面判断全部隐私状态。
 
 如果你主要担心 VPN 本身是否可靠，可以继续看 [VPN 安全吗](vpn-safe.html)。如果连上 VPN 后直接没网，优先看 [VPN 连不上怎么办](vpn-not-working.html)，不要先把所有问题都归因于 DNS。
+
+
+如果 DNS 检测正常，但某个网站仍显示原来的地区，问题也可能来自 [浏览器定位权限和账号地区](vpn-location-still-visible.html)，不要仅凭网站位置判断 DNS 泄露。

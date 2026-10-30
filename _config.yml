@@ -13,3 +13,12 @@ defaults:
       path: ""
     values:
       image: /assets/images/vpn-guide-hero.webp
+
+exclude:
+  - README.md
+  - DEPLOY_NOTES.txt
+  - RELEASE_NOTES_V3.md
+  - RELEASE_NOTES_V4.md
+  - RELEASE_NOTES_V5.md
+  - Gemfile
+  - Gemfile.lock

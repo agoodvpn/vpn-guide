@@ -24,13 +24,32 @@ description: 中文VPN与网络加速实用指南，覆盖VPN怎么选、连接�
 
 {% include huyue-card.html variant="general" %}
 
+## 最常见的连接故障：直接按症状选择
+
+| 故障表现 | 对应排查 |
+|---|---|
+| VPN 没有节点信息、服务器列表空白 | [节点列表加载失败](vpn-server-list-not-loading.html) |
+| Android 锁屏后自动断开 | [后台限制与切网问题](android-vpn-background-disconnect.html) |
+| 显示连接成功，IP 却没变 | [公网 IP、IPv6 和分流检查](vpn-connected-but-ip-not-changed.html) |
+| 显示已连接，但网页和 App 无法上网 | [已连接却无法上网的专项排查](vpn-connected-no-internet.html) |
+| VPN 根本无法建立连接 | [VPN 连不上怎么办](vpn-not-working.html) |
+
+## VPN 与加速器，先分清再选
+
+如果你还分不清自己需要哪类工具，先看 [VPN 和加速器有什么区别](vpn-vs-accelerator.html)。这篇从游戏延迟、办公隐私、视频体验和多设备使用几个角度比较，帮助你避免把两种产品混为一谈。
+
+如果已经确定要使用 VPN，可以再看 [VPN 是什么](what-is-vpn.html) 和 [怎么选择 VPN](how-to-choose-vpn.html)；如果问题出在已连接的客户端，直接进入 [故障排查](vpn-not-working.html) 更省时间。
+
 ## 常见问题直接找答案
+如果需要区分不同网络工具，可以先读 [VPN 与代理的区别](vpn-vs-proxy.html)。如果客户端提示“没有节点信息”，直接按 [节点列表加载失败排查](vpn-server-list-not-loading.html) 检查账号、网络和配置。
+
 
 | 你遇到的问题 | 先看这里 |
 |---|---|
 | 不知道 VPN 到底有什么用 | [VPN 是什么？能做什么、不能做什么](what-is-vpn.html) |
 | 正在比较服务 | [如何选择 VPN](how-to-choose-vpn.html) |
-| 连不上、一直转圈、连上没网 | [VPN 连不上怎么办](vpn-not-working.html) |
+| 一直转圈、无法建立连接 | [VPN 连不上怎么办](vpn-not-working.html) |
+| 显示已连接，但打不开网页 | [VPN 已连接却无法上网](vpn-connected-no-internet.html) |
 | 显示已连接，但公网 IP 没变 | [VPN 连上但 IP 没变怎么排查](vpn-connected-but-ip-not-changed.html) |
 | 开 VPN 后网站还是知道我的位置 | [为什么网站还能知道我在哪](vpn-location-still-visible.html) |
 | VPN 用一会儿就断 | [VPN 总是掉线怎么办](vpn-keeps-disconnecting.html) |
@@ -56,6 +75,10 @@ description: 中文VPN与网络加速实用指南，覆盖VPN怎么选、连接�
 **节点多不等于一定好用。** 对日常用户来说，常用地区有没有稳定线路、切换是否方便、掉线后能不能快速恢复，往往比宣传页上的总数量更重要。
 
 **多设备和固定 IP 是两类需求。** 设备多，关心的是同时在线数量；团队登录后台、白名单或固定业务环境，更可能关心固定 IP、独享 IP 或专属节点。
+
+## 手机连接总掉线？
+
+如果问题主要发生在 Android 锁屏之后或从 Wi-Fi 切换到移动数据时，可看 [Android VPN 后台断开怎么排查](android-vpn-background-disconnect.html)。这类问题的起点通常不是测速或更换服务商。
 
 ## 按你的下一步继续看
 

@@ -11,6 +11,8 @@ section_url: /vpn-not-working.html
 
 比起不停换节点，更有效的办法是先观察**它在什么时刻掉**。时间点往往比报错文字更有用。
 
+**手机专用排查：**如果主要发生在 Android 锁屏、休眠或 Wi-Fi/移动数据切换时，可直接看 [Android VPN 后台掉线与切网排查](android-vpn-background-disconnect.html)，避免把设备后台限制误判为服务器故障。
+
 ## 一切换 Wi-Fi 或蜂窝网络就掉
 
 这是最常见的一类。VPN 隧道建立在当前网络之上，当手机从家里 Wi-Fi 切到 5G，或者笔记本从一个热点跳到另一个热点，底层网络地址发生变化，VPN 可能需要重新握手。

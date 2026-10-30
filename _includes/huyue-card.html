@@ -1,30 +1,7 @@
-{% assign variant = include.variant | default: "general" %}
-<aside class="sponsor-card" aria-label="合作推荐">
-  <div class="sponsor-card__content">
-    <div class="sponsor-card__label">合作推荐</div>
-    <h3>虎跃加速器</h3>
-    <p class="sponsor-card__tagline">多设备支持 · 不限流量 · 多地区节点</p>
-    {% if variant == "devices" %}
-    <p class="sponsor-card__copy">覆盖常用地区线路，多设备同时使用，并支持定制专属线路。</p>
-    {% elsif variant == "streaming" %}
-    <p class="sponsor-card__copy">覆盖常用地区线路，兼顾高清视频、海外应用访问和多设备使用。</p>
-    {% elsif variant == "troubleshooting" %}
-    <p class="sponsor-card__copy">多地区节点可选，适合需要切换线路或寻找替代线路的使用场景。</p>
-    {% else %}
-    <p class="sponsor-card__copy">覆盖常用地区线路，多设备同时使用，并支持定制专属线路。</p>
-    {% endif %}
-    <div class="sponsor-card__actions">
-      <a class="button button--primary" href="{{ '/huyue-accelerator.html' | relative_url }}">了解虎跃</a>
-      <a class="button button--ghost" href="https://huyuejsq.co/" rel="sponsored nofollow noopener" target="_blank">访问官网</a>
-    </div>
-  </div>
-  <div class="sponsor-card__visual" aria-hidden="true">
-    <span class="sponsor-card__ring sponsor-card__ring--one"></span>
-    <span class="sponsor-card__ring sponsor-card__ring--two"></span>
-    <span class="sponsor-card__beam sponsor-card__beam--one"></span>
-    <span class="sponsor-card__beam sponsor-card__beam--two"></span>
-    <span class="sponsor-card__dot sponsor-card__dot--one"></span>
-    <span class="sponsor-card__dot sponsor-card__dot--two"></span>
-    <span class="sponsor-card__dot sponsor-card__dot--three"></span>
-  </div>
+<aside class="partner-banner" aria-label="合作推荐：虎跃加速器">
+  <a class="partner-banner__link" href="{{ '/huyue-accelerator.html' | relative_url }}" aria-label="合作推荐：查看虎跃加速器的服务介绍、适用场景与限制">
+    <img src="{{ '/assets/images/huyue-partner-banner.webp' | relative_url }}" alt="虎跃加速器合作推荐横幅，包含产品宣传要点。具体条件请查看产品说明。" width="2172" height="724" loading="lazy" decoding="async">
+  </a>
+  <a class="partner-banner__mobile-label" href="{{ '/huyue-accelerator.html' | relative_url }}" aria-label="合作推荐：虎跃加速器服务介绍与限制"><strong>虎跃加速器</strong><span>合作推荐 · 查看服务详情与使用限制</span></a>
+  <p class="partner-banner__disclosure">合作推广 · 图片中功能与性能表述来自宣传素材，非本站独立测试结论。<a href="{{ '/huyue-accelerator.html' | relative_url }}">查看服务说明与使用限制</a></p>
 </aside>

@@ -25,6 +25,8 @@ section_url: /game-accelerator-guide.html
 
 产品功能会交叉，所以最后还是要看具体服务，而不是只看名字。
 
+另外，VPN 与“代理服务器”也经常被混淆；如果你要比较的是流量接管范围和加密方式，另见 [VPN 和代理有什么区别](vpn-vs-proxy.html)。
+
 ## 游戏：低延迟比“加密多强”更重要
 
 竞技游戏最怕的是高延迟、抖动和丢包。专业加速器通常会针对具体游戏服务器和线路做优化，所以游戏场景下往往更有针对性。
@@ -81,3 +83,6 @@ YouTube、Netflix 这类视频服务，对持续吞吐和节点稳定性很敏�
 如果还是拿不准，可以从 [VPN 是什么](what-is-vpn.html) 开始，把自己的需求先归类，再选工具会简单很多。
 
 {% include huyue-card.html variant="general" %}
+
+
+如果你其实在排查“连接成功但 IP 或地区没变”，可以从 [VPN 已连接但 IP 没变](vpn-connected-but-ip-not-changed.html) 开始；这是具体连接问题，不等于 VPN 与加速器本身的功能区别。
