@@ -1649,26 +1649,24 @@ img {
   }
 }
 
-/* Partner image: do not crop claims or platform icons on narrow screens. */
-.partner-banner { margin: 24px 0 32px; }
-.partner-banner__link { display: block; overflow: hidden; border-radius: 12px; border: 1px solid #cbd9e5; background: #07172e; box-shadow: 0 8px 22px rgba(15,30,50,.09); }
-.partner-banner__link img { width: 100%; height: auto; display: block; }
-.partner-banner__link:focus-visible { outline: 3px solid #2379b8; outline-offset: 3px; }
-.partner-banner__disclosure { margin: 8px 2px 0 !important; font-size: 12px; color: var(--muted, #57636d); line-height: 1.6; }
-.partner-banner__disclosure a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
-@media(max-width:600px) { .partner-banner { margin: 18px 0 26px; } .partner-banner__link { border-radius: 8px; } .partner-banner__disclosure { font-size: 11px; } }
-
-/* On narrow screens the wide creative is an illustration; expose readable text separately. */
-.partner-banner__mobile-label { display:none; }
+/* A dedicated compact asset keeps the main copy legible without stretching or clipping it in CSS. */
+.partner-banner { margin: 18px 0 22px; }
+.partner-banner__link { display:block; overflow:hidden; border:1px solid #cbd9e5; border-radius:12px; background:#07172e; box-shadow:0 6px 16px rgba(15,30,50,.08); }
+.partner-banner__link picture, .partner-banner__link img { display:block; width:100%; }
+.partner-banner__link img { height:auto; aspect-ratio:2172 / 440; object-fit:contain; }
+.partner-banner__link:focus-visible, .partner-banner__mobile-label:focus-visible { outline:3px solid #2379b8; outline-offset:3px; }
+.partner-banner__disclosure { margin:6px 2px 0 !important; font-size:11px; line-height:1.5; color:var(--muted,#57636d); }
+.partner-banner__disclosure a { color:inherit; text-decoration:underline; text-underline-offset:3px; }
+.partner-banner__mobile-label { display:none; text-decoration:none; }
 @media(max-width:600px) {
-  .partner-banner__mobile-label { display:flex; flex-direction:column; gap:3px; padding:10px 12px; background:#f3f7fb; border:1px solid #d3dee9; border-top:0; border-radius:0 0 9px 9px; color:#132b40; }
-  .partner-banner__mobile-label strong { font-size:16px; }
-  .partner-banner__mobile-label span { font-size:12px; }
+  .partner-banner { margin:14px 0 20px; }
   .partner-banner__link { border-radius:9px 9px 0 0; }
+  .partner-banner__mobile-label { display:flex; flex-direction:column; gap:4px; padding:10px 12px; background:#f3f7fb; border:1px solid #d3dee9; border-top:0; border-radius:0 0 9px 9px; color:#132b40; }
+  .partner-banner__mobile-label strong { font-size:15px; }
+  .partner-banner__mobile-label > span { font-size:12px; }
+  .partner-banner__tag { font-weight:500; font-size:10px; color:#536a7b; margin-left:6px; }
+  .partner-banner__disclosure { font-size:10px; }
 }
-
-.partner-banner__mobile-label { text-decoration:none; }
-.partner-banner__mobile-label:focus-visible { outline:3px solid #2379b8; outline-offset:2px; }
 
 /* Respect reader motion preferences without changing the default design. */
 @media (prefers-reduced-motion: reduce) {
